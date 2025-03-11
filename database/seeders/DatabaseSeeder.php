@@ -15,9 +15,11 @@ class DatabaseSeeder extends Seeder
     {
         // User::factory(10)->create();
 
+        // Création d'un compte administrateur unique
         User::factory()->create([
-            'name' => 'Test User',
-            'email' => 'test@example.com',
+            'name' => 'Administrateur',
+            'email' => 'admin@gestion-planning.com',
+            'password' => bcrypt('admin123456'),
         ]);
 
         $this->call([

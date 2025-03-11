@@ -11,9 +11,6 @@ Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
 Route::post('/logout', [AuthController::class, 'logout'])->name('logout');
 
-// Connexion automatique (pour un accès facile)
-Route::get('/auto-login', [AuthController::class, 'autoLogin'])->name('auto.login');
-
 // Route pour créer un utilisateur administrateur (à exécuter une seule fois)
 Route::get('/setup-admin', [AuthController::class, 'setupAdmin'])->name('setup.admin');
 

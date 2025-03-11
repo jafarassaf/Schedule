@@ -44,14 +44,6 @@
                         </button>
                     </div>
                 </form>
-                
-                <hr>
-                <div class="text-center">
-                    <p class="mb-2">Accès direct à l'application :</p>
-                    <a href="{{ route('auto.login') }}" class="btn btn-success">
-                        Connexion automatique
-                    </a>
-                </div>
             </div>
         </div>
     </div>

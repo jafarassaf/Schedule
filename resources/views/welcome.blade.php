@@ -35,11 +35,8 @@
             </div>
             
             <div class="d-grid gap-2 col-6 mx-auto">
-                <a href="{{ route('auto.login') }}" class="btn btn-success btn-lg">
-                    Connexion automatique
-                </a>
-                <a href="{{ route('login') }}" class="btn btn-outline-secondary">
-                    Connexion manuelle
+                <a href="{{ route('login') }}" class="btn btn-primary btn-lg">
+                    Connexion
                 </a>
             </div>
         </div>
